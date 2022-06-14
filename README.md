@@ -120,7 +120,7 @@ chmod u+x gui.sh
 
 ![Untitled](109AB0716%E8%B3%87%E5%AE%89%E5%A0%B1%E5%91%8A%20ef50ef32dd314e61b3726ed9c79a1e7c/Untitled%2014.png)
 
-### 4**. 以**vim編輯內容
+### **4. 以vim編輯內容**
 
 ```bash
 #!/bin/bash
@@ -130,7 +130,7 @@ DISPLAY=0:0 XDG_SESSION_TYPE=x11 gnome-session
 /mnt/c/Windows/System32/taskkill.exe /IM vcxsrv.exe /T /F
 ```
 
-### 5**. 執行**
+### **5. 執行**
 
 ```bash
 sudo ./gui.sh
@@ -138,11 +138,11 @@ sudo ./gui.sh
 
 ![Untitled](109AB0716%E8%B3%87%E5%AE%89%E5%A0%B1%E5%91%8A%20ef50ef32dd314e61b3726ed9c79a1e7c/Untitled%2015.png)
 
-### 6**. 開啟X server**
+### **7. 開啟X server**
 
 ![Untitled](109AB0716%E8%B3%87%E5%AE%89%E5%A0%B1%E5%91%8A%20ef50ef32dd314e61b3726ed9c79a1e7c/Untitled%2016.png)
 
-### 6**. 修改用戶名稱**
+### **8. 修改用戶名稱**
 
 ```bash
 sudo chown –R username:username .cache
